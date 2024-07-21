@@ -1,0 +1,17 @@
+<%- include('includes/head.ejs'); %>
+<%- include('includes/nav'); %>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        
+        <div class="col-lg-8 my-5">
+            <h1 class="text-center"> Olá 
+                <br><%= user.nome %></h1>
+                <p class="text-center lead">Clique <a href="http://localhost:3000/">aqui</a> para ver a sua agenda.</p>
+                <%- include('includes/messages'); %>
+            </div>
+
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+<%- include('includes/footer.ejs'); %>
